@@ -6,7 +6,7 @@
 
 .slider {
     
-    width: 25%;
+    width: 90%;
     margin: auto;
     max-width: 1440px;
     
@@ -14,12 +14,13 @@
 
     .slides {
         position: relative;   
-        margin-top: 30%;
+        margin-top: 1rem;
         
 
         >img {
-            max-width: 100%;
-            margin: auto;
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
             
         }
 
