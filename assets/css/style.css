@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 40%;
+    margin: auto;
+    max-width: 1440px;
+    position: relative;
+    
+    
+
+    .slides {
+        text-align: center;
+        
+
+        >img {
+            max-width: 100%;
+            
+        }
+
+        >img:not(.active){
+            display: none; 
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+
+            > button{
+                background-color: transparent;
+                border: none;
+            }
+        }
+    }
+}
