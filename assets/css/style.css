@@ -5,15 +5,16 @@
 }
 
 .slider {
-    width: 50%;
+    
+    width: 25%;
     margin: auto;
     max-width: 1440px;
-    
     
     
 
     .slides {
         position: relative;   
+        margin-top: 30%;
         
 
         >img {
@@ -36,6 +37,10 @@
             > button{
                 background-color: transparent;
                 border: none;
+            }
+
+            > button:hover{
+                color: white;
             }
         }
     }

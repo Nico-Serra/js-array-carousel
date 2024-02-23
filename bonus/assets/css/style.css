@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+
+
+    .slides {
+        position: relative;
+        margin-top: 1rem;
+        
+
+
+        >img {
+            width: 750px;
+            height: 600px;
+            object-fit: cover;
+            
+
+        }
+
+        >img:not(.active) {
+            display: none;
+        }
+
+        .controls {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: absolute;
+            left: 50%;
+            height: 100%;
+
+            >button {
+                background-color: transparent;
+                border: none;
+            }
+
+            >button:hover {
+                color: white;
+            }
+        }
+    }
+
+    .thumbnails {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        .rectangle {
+            background-color: black;
+            opacity: 0.5;
+            
+                
+            > img{
+                width: 350px;
+                height: calc(600px /5);
+                object-fit: cover;
+                display: block;
+
+            }
+
+        }
+
+        .select{
+            opacity: 1;
+            border: 1px inset red;
+        }
+
+    }
+}
