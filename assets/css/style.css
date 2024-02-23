@@ -5,19 +5,20 @@
 }
 
 .slider {
-    width: 40%;
+    width: 50%;
     margin: auto;
     max-width: 1440px;
-    position: relative;
+    
     
     
 
     .slides {
-        text-align: center;
+        position: relative;   
         
 
         >img {
             max-width: 100%;
+            margin: auto;
             
         }
 
